@@ -1,0 +1,86 @@
+html,body{
+    font-size: 16px;
+    font-family: "Space Mono", sans-serif;
+
+}
+
+body{
+    background-image: url('space.jpg');
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    color:#ffffff;
+    margin: 1.325em 1.0em;
+
+}
+
+
+.caption h5{
+    color:#ffffff;
+    text-align: center;
+    margin: 2.75rem;
+    font-size:1.0em;
+}
+.about {
+    color: #ffffff;
+    text-align: center;
+    margin: 3.275rem auto;
+    max-width: 1200px;
+    
+    
+}
+.about p{
+    padding: 2rem;
+}
+
+.about a {
+    color: orange;
+    padding: 1.1rem;
+}
+
+.space-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:100%;
+    max-width:1200px;
+    margin: 0 auto;
+
+}
+
+.space-images img{
+    width:240px;
+    margin: 20px;
+    border: 2px solid ghostwhite;
+    cursor: pointer;
+}
+
+.Nav a{
+    color:#ffffff;
+    margin: 1.5em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.Nav{
+    margin: 1.5em auto;
+    max-width: 1200px;
+}
+.Contact{
+    color: #ff9100;
+    text-align: center;
+    border: 2px solid ghostwhite;
+    padding: 1.25em 1em;
+    display: inline;
+    margin: 1rem auto;
+    text-transform: uppercase;
+    position: relative;
+    left:45%;
+    border-radius: 5px;
+    cursor: pointer;
+}
